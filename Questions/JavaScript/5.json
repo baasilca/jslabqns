@@ -1,0 +1,5 @@
+{
+    "/App.js": "export default function App() {\nArray.prototype.last = function() {\nreturn this.length === 0 ? -1 : this[this.length-1]\n};\n}",
+  "/extended.test.ts": "describe('Simple example without external dependencies', () => {\n  test('Returns the last element', () => {\n    const arr = [1, 2, 3];\n    expect(arr.last()).toEqual(3);\n  });\n\n  test('Returns -1 for an empty array', () => {\n    const arr = [];\n    expect(arr.last()).toEqual(-1);\n  });\n\n  test('Returns the last element for arrays with mixed types', () => {\n    const arr = [true, {}, 'hello', 42];\n    expect(arr.last()).toEqual(42);\n  });\n});"
+  }
+  

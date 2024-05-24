@@ -1,0 +1,5 @@
+{
+    "/App.js": "export default function App() {\n  return (\n    <>\n      <p>Primitives from server</p>\n      <button onClick={() => console.log(\"Lorem ipsum\")}>string</button>\n      <button onClick={() => console.log(123)}>number</button>\n      <button onClick={() => console.log(true)}>boolean</button>\n      <button onClick={() => console.log(undefined)}>undefined</button>\n      <button onClick={() => console.log(null)}>null</button>\n    </>\n  );\n}",
+    "/extended.test.ts": "describe('Simple example without external dependencies', () => {\n  test('1 + 1 equals 3', () => {\n    expect(1 + 1).toEqual(2);\n  });\n\n  test('Array length is correct', () => {\n    const arr = [1, 2, 3];\n    expect(arr).toHaveLength(3);\n  });\n});"
+  }
+  
